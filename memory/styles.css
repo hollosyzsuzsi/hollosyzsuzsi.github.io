@@ -1,0 +1,43 @@
+#grid {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+#gamecontainer {
+    margin-left: 25vw;
+    width: 700px;
+    height: 750px;
+    border: 2px solid blue;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    margin: 20px;
+}
+
+#newgame {
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: none;
+    margin-left: 280px;
+    font-size: 18px;
+    border: none;
+}
