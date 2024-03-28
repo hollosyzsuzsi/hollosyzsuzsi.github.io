@@ -1,197 +1,49 @@
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "Outfit", sans-serif;
-  font-size: 16px;
-  color: hsl(24, 5%, 18%);
-  line-height: 1.5;
+  background-color: rgb(59, 1, 30);
+  color: rgb(211, 155, 164);
 }
 
-#main {
-  width: 375px;
-  background-color: hsl(0, 0%, 100%);
+.text {
+  margin-top: 10vh;
+  height: 35vh;
+  text-align: center;
 }
 
-#text-container {
-  width: 310px;
-  padding: 25px;
-  margin: 0 auto;
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-h1,
-h2 {
-  font-family: "Young Serif", serif;
+.games {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(211, 155, 164);
+  width: 20vw;
+  height: 20vw;
+  margin: 15px 20px;
+  color: rgb(59, 1, 30);
 }
 
-h1 {
-  color: hsl(24, 5%, 18%);
-  font-size: 2.3em;
+a :hover {
+  color: orangered;
 }
 
-h2 {
-  color: hsl(14, 45%, 36%);
-  font-size: 1.6em;
+a {
+  text-decoration: none;
+  color: rgb(59, 1, 30);
 }
 
-h3 {
-  font-family: "Outfit", sans-serif;
-  color: hsl(332, 51%, 32%);
-  margin-left: 20px;
-  font-size: 1.2em;
+#candyCrushJs {
 }
 
-img {
-  width: 100vw;
+#candyCrushReact {
 }
 
-#preparation {
-  max-width: 310px;
-  background-color: hsl(330, 100%, 98%);
-  padding: 5px 15px 5px 15px;
-  margin-top: 20px;
-  line-height: 2;
+#quoteMachine {
 }
 
-ol {
-  list-style-position: outside;
-  padding-right: 220px;
-}
-
-.instructions {
-  font-weight: bold;
-}
-
-.bulletpoints-space {
-  position: absolute;
-  left: 100px;
-}
-
-.bulletpoints-space-ingredients {
-  position: absolute;
-  left: 80px;
-}
-
-li > .ispan {
-  position: relative;
-  left: 25px;
-}
-
-#ingredients-div {
-  line-height: 2;
-  padding-bottom: 30px;
-  border-bottom: 0.5px solid hsl(24, 5%, 18%);
-}
-
-ol li::marker {
-  color: hsl(14, 45%, 36%);
-  font-weight: bold;
-  padding: 25px;
-}
-
-#instructions-div {
-  padding-bottom: 30px;
-  border-bottom: 0.5px solid hsl(24, 5%, 18%);
-}
-
-.data {
-  color: hsl(14, 45%, 36%);
-  font-weight: bold;
-  padding-left: 70px;
-}
-
-.material {
-  padding-left: 30px;
-}
-
-tr {
-  height: 50px;
-}
-
-td {
-  border-bottom: 0.5px solid hsl(24, 5%, 18%);
-}
-
-@media only screen and (min-width: 1000px) {
-  body {
-    background-color: hsl(330, 100%, 98%);
-    font-size: 20px;
-  }
-
-  #main {
-    background-color: hsl(0, 0%, 100%);
-    width: 1440px;
-    border-radius: 20px;
-    margin: auto;
-  }
-
-  #img-container,
-  #text-container {
-    width: 1240px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
-
-  #text-container {
-    margin-top: -150px;
-  }
-
-  img {
-    border-radius: 20px;
-    width: 1240px;
-    margin-left: 100px;
-    margin-top: 100px;
-  }
-
-  .bulletpoints-space {
-    position: absolute;
-    left: 420px;
-  }
-
-  .bulletpoints-space-ingredients {
-    position: absolute;
-    left: 400px;
-  }
-
-  #preparation {
-    width: 1200px !important;
-  }
-
-  #instructions-div {
-    line-height: 2;
-  }
-
-  h1 {
-    font-size: 4em;
-  }
-
-  h2 {
-    font-size: 2.5em;
-  }
-
-  h3 {
-    font-size: 1.5em;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  table {
-    width: 1240px;
-    margin-top: 50px;
-  }
-
-  td {
-    border-collapse: collapse;
-  }
-
-  tr {
-    height: 70px;
-    border-collapse: collapse;
-    border-bottom: 0.5px solid hsl(24, 5%, 18%);
-  }
-
-  .data {
-    padding-left: 300px;
-  }
+#memoryGame {
 }
