@@ -43,6 +43,28 @@ h3 {
   border: none;
 }
 
+@media screen and (max-width: 350px) {
+  #newgame {
+    margin-top: 60vh;
+  }
+
+  img {
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #grid {
+    height: 80vh;
+    width: 80vw;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   #gamecontainer {
     width: 100vw;
@@ -50,6 +72,7 @@ h3 {
 
   #grid {
     width: 80vw;
+
     padding: 10px;
     margin: auto;
   }
