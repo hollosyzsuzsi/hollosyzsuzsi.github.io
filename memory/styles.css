@@ -15,7 +15,7 @@ img {
 }
 
 #gamecontainer {
-  margin-left: 25vw;
+  margin: auto;
   width: 700px;
   height: 750px;
 }
@@ -41,4 +41,20 @@ h3 {
   margin-left: 280px;
   font-size: 18px;
   border: none;
+}
+
+@media screen and (max-width: 700px) {
+  #gamecontainer {
+    width: 100vw;
+  }
+
+  #grid {
+    width: 80vw;
+    padding: 10px;
+    margin: auto;
+  }
+
+  #newgame {
+    margin-left: 35vw;
+  }
 }
